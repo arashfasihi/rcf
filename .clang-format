@@ -1,4 +1,4 @@
-# using clang-format version 5.0.0
+---
 Language: Cpp
 BasedOnStyle: LLVM
 
@@ -10,3 +10,11 @@ BinPackParameters: false
 # make adding new members at the end less noisy in diffs
 BreakConstructorInitializersBeforeComma: true
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
+
+---
+Language: CSharp
+# Use 100 columns for C#.
+ColumnLimit: 100
+
+IndentWidth:    10
+...
